@@ -66,4 +66,4 @@ function goTo(index)
     currentSlide=index
     showSlide(index)
 }
-setInterval(nextSlide, 5000);
+setTimeout(nextSlide, 5000);
